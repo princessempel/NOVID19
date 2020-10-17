@@ -14,6 +14,7 @@ public class Novid {
 
 	public boolean mask(String ans)
 	{
+		Scanner ans = new Scanner(System.in);
 		if(ans.equals("Y")) {
 			return true;
 		} else if(ans.equals("N")) {
